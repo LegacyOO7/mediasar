@@ -64,7 +64,7 @@ async def start(bot, cmd):
                         f_caption=f_caption
                 if f_caption is None:
                     f_caption = f"@Moviesearchx"
-"
+
                 buttons = [
                     [
                         InlineKeyboardButton('Search Again', switch_inline_query_current_chat='')
