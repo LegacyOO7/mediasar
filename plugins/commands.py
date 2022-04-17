@@ -63,7 +63,8 @@ async def start(bot, cmd):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"@searchitrobot"
+                    f_caption = f"@Moviesearchx"
+"
                 buttons = [
                     [
                         InlineKeyboardButton('Search Again', switch_inline_query_current_chat='')
@@ -99,10 +100,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("Search Here", switch_inline_query_current_chat=''),
-                        InlineKeyboardButton('How to Use Me', url='https://t.me/searchitrobotupdates')
+                        InlineKeyboardButton('How to Use Me', url='https://t.me/Moviesearchx')
                     ],
                     [
-                        InlineKeyboardButton('About', url='https://t.me/searchitrobotupdates')
+                        InlineKeyboardButton('About', url='https://t.me/Moviesearchx')
                     ]
                 ]
             )
@@ -191,8 +192,8 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('Update Channel', url='https://t.me/GrandCinemas'),
+            InlineKeyboardButton('Update Channel', url='https://t.me/Moviesearchx'),
             InlineKeyboardButton('Source Code', url='https://github.com')
         ]
         ]
-    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com'>Click here</a>\nUpdate Channel : <a href='https://t.me/GrandCinemas'>Update</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="Language : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com'>Click here</a>\nUpdate Channel : <a href='https://t.me/Moviesearchx'>Update</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
