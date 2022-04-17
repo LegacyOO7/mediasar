@@ -345,7 +345,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"➠➠➠ @Moviesearchx"
                 buttons = [
                     [
-                        InlineKeyboardButton('Update Channel', url='https://t.me/searchitrobotupdates')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/Moviesearchx')
                     ]
                     ]
                 
