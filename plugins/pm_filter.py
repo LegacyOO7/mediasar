@@ -59,7 +59,7 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"subinps#{file_id}")]
                     )
         else:
-            msg = await message.reply(f"👋Hey Bro, Check Movie Name In #Google and Try, Again No Results? It's Not Available In Our Database Or Movie Not Released !\n\nബ്രോ, മൂവിയുടെ പേര് മാത്രം #Google നോക്കിയിട്ട് അടിച്ചു നോക്കുക..!\nഎന്നിട്ടും കിട്ടിയില്ലെങ്കിൽ ആ മൂവി ഞങ്ങളുടെ ഡാറ്റാബേസിൽ ഇല്ല, അല്ലെങ്കിൽ ആ മൂവി ഇറങ്ങിയിട്ടില്ല എന്ന് മനസ്സിലാക്കുക!\nRequest Unavailable Movies Here @GrandCinemasadminbot")
+            msg = await message.reply(f"👋Hey Bro, Check Movie Name In #Google and Try, Again No Results? It's Not Available In Our Database Or Movie Not Released !\n\nബ്രോ, മൂവിയുടെ പേര് മാത്രം #Google നോക്കിയിട്ട് അടിച്ചു നോക്കുക..!\nഎന്നിട്ടും കിട്ടിയില്ലെങ്കിൽ ആ മൂവി ഞങ്ങളുടെ ഡാറ്റാബേസിൽ ഇല്ല, അല്ലെങ്കിൽ ആ മൂവി ഇറങ്ങിയിട്ടില്ല എന്ന് മനസ്സിലാക്കുക!")
             return
 
         if not btn:
@@ -288,11 +288,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/GrandCinemas'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/SearchItRobotUpdates')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/Moviesearchx'),
+                    InlineKeyboardButton('Source Code', url='https://t.me/Moviesearchx')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/SearchItRobotUpdates'>Unknown</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/Moviesearchx'>Unknown</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -310,11 +310,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"➠➠➠ 𝓢𝓮𝓪𝓻𝓬𝓱𝓘𝓣𝓡𝓸𝓫𝓸𝓽"
+                    f_caption = f"➠➠➠ @Moviesearchx1bot"
                 buttons = [
                     [
-                        InlineKeyboardButton('Main Channel', url='https://t.me/GrandCinemas'),
-                        InlineKeyboardButton('Update Channel', url="https://t.me/SearchItRobotUpdates')
+                        InlineKeyboardButton('Main Channel', url='https://t.me/Moviesearchx'),
+                        InlineKeyboardButton('Source Code', url='https://t.me/Moviesearchx')
                     ]
                     ]
                 
@@ -342,10 +342,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"➠➠➠ 𝓢𝓮𝓪𝓻𝓬𝓱𝓘𝓣𝓡𝓸𝓫𝓸𝓽"
+                    f_caption = f"➠➠➠ @Moviesearchx1bot"
                 buttons = [
                     [
-                        InlineKeyboardButton('Update Channel', url='https://t.me/SearchItRobotUpdates')
+                        InlineKeyboardButton('Update Channel', url='https://t.me/searchitrobotupdates')
                     ]
                     ]
                 
