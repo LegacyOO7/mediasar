@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"➠➠➠ @Moviesearchx1bot"
+                    f_caption = f"➠➠➠ @Moviesearchx"
                 buttons = [
                     [
                         InlineKeyboardButton('Main Channel', url='https://t.me/Moviesearchx'),
@@ -342,7 +342,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                         print(e)
                         f_caption=f_caption
                 if f_caption is None:
-                    f_caption = f"➠➠➠ @Moviesearchx1bot"
+                    f_caption = f"➠➠➠ @Moviesearchx"
                 buttons = [
                     [
                         InlineKeyboardButton('Update Channel', url='https://t.me/searchitrobotupdates')
