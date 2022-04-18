@@ -19,19 +19,19 @@
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
-            "value": "5202463588:AAGtwkVuDu73QMOTzrfqScHPE5bos21Gtf0"
+            "value": ""
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "2025953"
+            "value": ""
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
-            "value": "0c692d57e06aaef8a9756cd85b4552ce"
+            "value": ""
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "value": ""
+            "value": "-1001566382780"
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
@@ -44,7 +44,7 @@
         },
         "AUTH_CHANNEL": {
             "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-            "value": "",
+            "value": "-1001682833240",
             "required": false
         },
         "START_MSG": {
@@ -64,14 +64,7 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "❗<b>FILENAME </b> : <code>{file_name}</code> 
-
-❗<b>Size</b> : <code>{file_size}</code>
-
-╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
-♻️ 𝙅𝙊𝙄𝙉 :- @Moviesearchx
-♻️ 𝙅𝙊𝙄𝙉 :- @Moviesearchx1bot
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝",
+            "value": "",
             "required": false
         },
         "AUTH_GROUPS": {
@@ -81,7 +74,7 @@
         },
         "DATABASE_URI": {
             "description": "mongoDB URI. Get this value from https://www.mongodb.com. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
-            "value": "mongodb+srv://legacy2:legacy2@cluster0.hbgsc.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+            "value": ""
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB. For more help watch this video - https://youtu.be/dsuTn4qV2GA",
